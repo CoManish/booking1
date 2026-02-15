@@ -9,9 +9,9 @@ from datetime import datetime, timedelta
 direct_spot_url = "https://sports.mitwpu.edu.in/sports/fdbbe72e-ea45-4ccb-afc1-dfcab4b49c97/slots/89d0f036-28ff-48a5-a72b-41da8a542657/seats"
 
 # Target release time (HH, MM, SS)
-target_hour = 19
-target_minute = 11
-target_second = 0
+target_hour = 5
+target_minute = 00
+target_second = 1
 
 # Multiple test accounts + spot numbers
 AUTH_FILES = [
@@ -172,3 +172,4 @@ def run_all_accounts():
 if __name__ == "__main__":
 
     run_all_accounts()
+
