@@ -15,9 +15,10 @@ target_second = 0
 
 # Multiple test accounts + spot numbers
 AUTH_FILES = [
-    ("auth/auth1.json", "4"),
-    ("auth/auth2.json", "6"),
-    ("auth/auth3.json", "5"),
+    ("auth/auth1.json", "1"),
+    ("auth/auth2.json", "2"),
+    ("auth/auth3.json", "3"),
+    ("auth/auth3.json", "4"),
 ]
 
 # ================= WAIT UNTIL TARGET =================
@@ -169,4 +170,5 @@ def run_all_accounts():
 # ================= START =================
 
 if __name__ == "__main__":
+
     run_all_accounts()
